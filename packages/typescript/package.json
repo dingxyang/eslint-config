@@ -1,5 +1,5 @@
 {
-  "name": "@anya/eslint-config-ts",
+  "name": "@esun/eslint-config-ts",
   "version": "0.0.5",
   "description": "",
   "author": "dingxyang <xydinga@163.com> (https://github.com/dingxyang/)",
@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@anya/eslint-config-basic": "workspace:*",
+    "@esun/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0"
   },

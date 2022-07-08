@@ -1,5 +1,5 @@
 {
-  "name": "@anya/eslint-config-react",
+  "name": "@esun/eslint-config-react",
   "version": "0.0.5",
   "description": "",
   "author": "dingxyang <xydinga@163.com> (https://github.com/dingxyang/)",
@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@anya/eslint-config-ts": "workspace:*",
+    "@esun/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.30.0"
   },
   "scripts": {

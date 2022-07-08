@@ -1,5 +1,5 @@
 {
-  "name": "@anya/eslint-config-monorepo",
+  "name": "@esun/eslint-config-monorepo",
   "version": "0.0.5",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "dingxyang  <xydinga@163.com> (https://github.com/dingxyang/)",
   "license": "MIT",
   "devDependencies": {
-    "@anya/eslint-config": "*",
+    "@esun/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
     "typescript": "^4.7.2"

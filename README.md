@@ -2,4 +2,4 @@
 
 pnpm add eslint -D --filter "./packages/**"
 
-pnpm install @anya/eslint-config-basic -r -filter @anya/eslint-config-ts
+pnpm install @esun/eslint-config-basic -r -filter @esun/eslint-config-ts

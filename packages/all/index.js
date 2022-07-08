@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@anya/eslint-config-react',
-    '@anya/eslint-config-vue',
+    '@esun/eslint-config-react',
+    '@esun/eslint-config-vue',
   ],
 }
