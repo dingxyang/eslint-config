@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "changeset": "changeset add",
     "build:all": "pnpm turbo run build",
-    "version": "changeset version",
-    "release": "pnpm build:all && pnpm release:only",
-    "release:only": "changeset publish"
+    "release": "pnpm build:all && pnpm release:only"
   },
   "keywords": [],
   "author": "丁向阳",
