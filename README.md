@@ -1,4 +1,5 @@
 # eslint-config
 
+pnpm add eslint -D --filter "./packages/**"
 
-自己使用的eslint规则
+pnpm install @anya/eslint-config-basic -r -filter @anya/eslint-config-ts

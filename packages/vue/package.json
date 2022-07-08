@@ -1,0 +1,27 @@
+{
+  "name": "@anya/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "",
+  "author": "dingxyang <xydinga@163.com> (https://github.com/dingxyang/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@anya/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.0.1"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
