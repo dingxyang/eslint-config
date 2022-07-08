@@ -1,15 +1,19 @@
 {
   "name": "@anya/eslint-config-monorepo",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "build:all": "pnpm turbo run build",
-    "release": "pnpm build:all && pnpm release:only"
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "keywords": [],
   "author": "dingxyang  <xydinga@163.com> (https://github.com/dingxyang/)",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.23.1",
-    "turbo": "^1.3.1"
+    "@anya/eslint-config": "*",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.2"
   }
 }
