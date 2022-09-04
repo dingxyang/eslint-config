@@ -12,10 +12,10 @@
   "author": "dingxyang  <xydinga@163.com> (https://github.com/dingxyang/)",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.23.1",
+    "@changesets/cli": "^2.24.4",
     "@esun/eslint-config": "*",
-    "bumpp": "^7.1.1",
-    "eslint": "^8.16.0",
-    "typescript": "^4.7.2"
+    "bumpp": "^7.2.0",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
   }
 }
